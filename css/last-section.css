@@ -1,0 +1,1008 @@
+:focus {
+    outline: none !important;
+}
+
+ul {
+    -webkit-margin-before: 0;
+    -webkit-padding-start: 0;
+}
+
+/* SEDES */
+
+.section_Sedes {
+    padding: 4em 0;
+    background-color: #f5f5f5;
+}
+
+.texto_Sedes {
+    width: 100%;
+    text-align: center;
+}
+
+.title_Sedes h2 {
+    color: #343434;
+    font-size: 49px;
+    font-weight: 700;
+
+    font-family: 'Trebuchet MS';
+}
+
+.subtitle_Sedes p {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 40px;
+    color: #000;
+    padding-bottom: 1.5em;
+}
+
+.container_Sedes {
+    padding: 0px 20px;
+}
+
+.leftArrowPrevSlick {
+    transform: scale(0.7);
+    position: absolute;
+    top: 50%;
+    z-index: 99;
+    max-width: 10.4px;
+}
+
+.rightArrowNextSlick {
+    right: -0.15%;
+    transform: scale(0.7);
+    position: absolute;
+    top: 50%;
+    z-index: 99;
+    max-width: 10.4px;
+    cursor: pointer;
+}
+
+.line {
+    height: 1px;
+    color: #f5f5f5;
+
+}
+
+/* CAROUSEL SEDES */
+
+.list_Sedes img {
+    max-width: 100%;
+}
+
+.list_Sedes a {
+    color: #343434;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.card_Sede {
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    width: 241px;
+    height: 40px;
+    padding: 12px;
+    margin-top: 22px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.card_Sede p {
+    font-size: 13px;
+}
+
+.image-Sede .caja .imagen {
+    background: white;
+}
+
+.image-Sede iframe {
+    display: none;
+    max-width: 100%;
+    margin: auto;
+    padding: 30px;
+}
+
+.image-Sede .caja {
+    position: absolute;
+    top: 2.5em;
+    right: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(1px 1px 2px #000);
+}
+
+.image-Sede .caja:hover {
+    cursor: pointer;
+}
+
+.image-Sede .caja p {
+    color: white;
+    letter-spacing: 0.5px;
+    margin-right: 1.5em;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.image-Sede .caja .imagen img {
+    width: 40%;
+    height: 65%;
+}
+
+.section_Sedes .image-Sede .caja .imagen {
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_Sedes .image-Sede {
+    position: relative;
+}
+
+.image-Sede .card_Sede p {
+    font-size: 14px;
+}
+
+.card_Sede:hover,
+.card_Sede:active,
+.card_Sede:link,
+.card_Sede:visited {
+    background: #D43749;
+    color: #FFF;
+}
+
+.active,
+.card_Sede:hover {
+    background-color: #D43749;
+    color: #FFF;
+}
+
+.slick-dots li button:before {
+    font-size: 40px;
+    color: #343434;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #D43749;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    color: #D43749;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.slick-prev::before {
+    content: "";
+}
+
+.slick-next::before {
+    content: "";
+}
+
+.slick-prev {
+    left: 0px;
+    z-index: 99;
+}
+
+.slick-next {
+    right: 0px;
+    z-index: 99;
+}
+
+.list_sedes_dropdown {
+    text-align: center;
+    display: none;
+}
+
+.sede__dropdown {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.sede__dropdown li {
+    display: inline-block;
+    list-style: none;
+    width: 100%
+}
+
+.dropdown-red {
+    color: #FFF !important;
+    background-color: #C32032 !important;
+    border-radius: 5px;
+}
+
+.sede__dropdown li a {
+    display: block;
+    color: #343434;
+    background-color: #FFF;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.sede__dropdown li a span {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 10px;
+    color: #FFF;
+}
+
+.sede__dropdown li a:hover,
+.sede__dropdown li a.dropdown-toggle.active {
+    background-color: #C32032;
+    color: #fff;
+    box-shadow: 2px 4px 30px 0px rgba(46, 49, 56, 0.3);
+}
+
+.sede__dropdown li a:hover span,
+.sede__dropdown li a.dropdown-toggle.active span {
+    color: #fff;
+}
+
+.sede__dropdown li .dropdown-menu {
+    display: none;
+    position: relative;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.sede__dropdown li .dropdown-menu.active {
+    display: block;
+}
+
+.sede__dropdown li .dropdown-menu a {
+    width: 100%;
+}
+
+/* CASOS DE EXITO */
+
+.section__CasosdeExito___Mobile {
+    display: none;
+}
+
+.casos_Exitosos {
+    padding: 4em 0;
+    background-color: #FFF;
+}
+
+.casos_Exitosos img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.card__CasosdeExito {
+    width: 100%;
+    cursor: pointer;
+    background-size: cover;
+    position: relative;
+    background-image: url("../src/casosexito/fondocasos.png");
+    height: 350px;
+}
+
+.casosExitoContainer {
+    height: auto;
+}
+
+.topCasos,
+.NextCasos {
+    z-index: 99;
+    right: 0;
+}
+
+/*#padre {
+    position: relative;
+    margin-top: 20em;
+}
+
+.card__CasosdeExito img {
+    margin-top: 2.2em;
+    margin-left: -37.6em;
+    height: 90%;
+}
+
+.card__CasosdeExito .comillas {
+    margin-top: 0px;
+    margin-left: 0px;
+    height: auto;
+    position: absolute;
+    right: 43em;
+    top: 4.5em;
+}
+
+.border-bottom-casos {
+    width: 89.5%;
+    margin-left: 4%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    height: 1px;
+    margin-top: 44px;
+}*/
+
+/*.card__CasosdeExito .caja__CasosdeExito {
+    margin-top: -15em;
+    padding-left: 28em;
+}
+
+.card__CasosdeExito .caja__CasosdeExito p {
+    font-size: 24px;
+    font-style: italic;
+    color: #8a8a8a;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.card__CasosdeExito .caja__CasosdeExito h4 {
+    font-size: 24px;
+    color: #202020;
+    text-align: left;
+    margin-bottom: 0.5em;
+    font-weight: normal;
+}
+
+.card__CasosdeExito .caja__CasosdeExito h6 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #8a8a8a;
+    text-align: left;
+    margin-bottom: 3.2em;
+}
+
+.card__CasosdeExito .caja__CasosdeExito a {
+    color: #D43749;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding-right: 0.5em;
+    line-height: 15px;
+    margin-left: 14em;
+}
+
+.card__CasosdeExito:nth-child(1) {
+    z-index: 10;
+    margin: auto;
+    margin-top: -19em;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    height: 350px;
+}
+
+.card__CasosdeExito:nth-child(2) {
+    z-index: 9;
+    margin: auto;
+    margin-top: -18.4em;
+    transform-origin: top;
+    transform: scale(0.84);
+    opacity: 1;
+}
+
+.card__CasosdeExito:nth-child(4) img,
+.card__CasosdeExito:nth-child(4) .caja__CasosdeExito,
+.card__CasosdeExito:nth-child(5) img,
+.card__CasosdeExito:nth-child(5) .caja__CasosdeExito,
+.card__CasosdeExito:nth-child(6) img,
+.card__CasosdeExito:nth-child(6) .caja__CasosdeExito,
+.card__CasosdeExito:nth-child(7) img,
+.card__CasosdeExito:nth-child(7) .caja__CasosdeExito,
+.card__CasosdeExito:nth-child(3) img,
+.card__CasosdeExito:nth-child(3) .caja__CasosdeExito {
+    display: none;
+}
+
+.card__CasosdeExito:nth-child(3) {
+    z-index: 8;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transform-origin: top;
+    transform: scale(0.7);
+    opacity: 0.8;
+    margin: auto;
+    margin-top: -17em;
+}
+
+.card__CasosdeExito:nth-child(4) {
+    z-index: 7;
+    margin-top: -18em;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform: scale(0.7);
+    transform: scale(0.6);
+    opacity: 0.7;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.card__CasosdeExito:nth-child(5) {
+    z-index: 6;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 0.6;
+    background: white;
+    margin-top: 12em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.card__CasosdeExito:nth-child(6) {
+    z-index: 5;
+    top: -75px;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0.5;
+    background: white;
+    display: none;
+}
+
+.card__CasosdeExito:nth-child(7) {
+    z-index: 4;
+    top: -90px;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+    opacity: 0.4
+}
+
+.card__CasosdeExito:nth-child(8) {
+    z-index: 3;
+    top: -105px;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform: scale(0.3);
+    transform: scale(0.3);
+    opacity: 0.3;
+}
+
+.card__CasosdeExito:nth-child(9) {
+    z-index: 2;
+    top: -120px;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform: scale(0.2);
+    transform: scale(0.2);
+    opacity: 0.2;
+}
+
+.card__CasosdeExito:nth-child(10) {
+    z-index: 1;
+    top: -135px;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0.1;
+}
+
+.card__CasosdeExito:nth-child(11) {
+    z-index: 0;
+    top: -150px;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+}*/
+
+/* FOOTER */
+
+.polygon__footer {
+    background-color: #343434;
+    height: 42px;
+    position: relative;
+}
+
+.polygon-left {
+    -webkit-clip-path: polygon(0 0, 0 29%, 24% 29%);
+    clip-path: polygon(0 0, 0 29%, 24% 29%);
+    background-color: #343434;
+    height: 200px;
+    width: 227px;
+    position: absolute;
+    bottom: -7em;
+    left: 0;
+    z-index: 99;
+}
+
+.polygon-right {
+    -webkit-clip-path: polygon(100% 0, 100% 25%, 70% 25%);
+    clip-path: polygon(100% 0, 100% 25%, 70% 25%);
+    background-color: #343434;
+    height: 197px;
+    width: 227px;
+    position: absolute;
+    bottom: -7em;
+    right: 0;
+    z-index: 99;
+}
+
+.footer {
+    width: 100%;
+    font-size: 0;
+    background-color: #FFF;
+    border-bottom: 22px solid #343434;
+    height: 125px;
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer__container {
+    margin: 0 auto;
+}
+
+.footer .footer__container .footer__container__row {
+    display: flex;
+    font-size: 0px;
+}
+
+.footer .footer__container .footer__container__row .footer__container__box {
+    margin: 0 auto;
+    display: inline-block;
+    width: 50%;
+}
+
+.footer .footer__container .footer__container__row .footer__container__box .socialNetworks {
+    width: 33.33%;
+    margin-right: 5px;
+}
+
+.socialNetworks img {
+    height: 60px;
+}
+
+.footer .footer__container .footer__container__row .footer__container__box:first-child {
+    text-align: left;
+}
+
+.footer .footer__container .footer__container__row .footer__container__box:last-child {
+    text-align: right;
+}
+
+/* MOBILE */
+
+@media (max-width: 1920px) {}
+
+@media (max-width: 1199px) {
+    .frase_CasosdeExito {
+        min-height: 180px;
+        padding: 0;
+        width: 80%;
+        margin-right: 6%;
+        padding: 0px;
+    }
+
+    .col-lg-9 {
+        max-width: 100%;
+    }
+    .image-Sede .caja {
+        display: none;
+    }
+    .image-Sede iframe {
+        padding: 0px;
+    }
+
+}
+
+@media (max-width: 1202px) {
+
+    .casos_Exitosos .container .flechas {
+        display: none;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .casos_Exitosos .container .flechas {
+        display: none;
+    }
+    .list_sedes_dropdown {
+        display: block;
+    }
+    .col-lg-9 {
+        max-width: 100%;
+    }
+    .image-Sede .caja {
+        display: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .padre__CasosdeExito .firstSectionDouble_leftCardYears {
+        bottom: 0px !important;
+    }
+}
+
+@media (max-width: 411px) {
+    .padre__CasosdeExito .firstSectionDouble_leftCardYears {
+        bottom: 0px !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .casos_Exitosos .section__CasosdeExito___Mobile {
+        width: 100%;
+        padding: 2%;
+        display: block;
+        margin-bottom: 8em;
+    }
+
+    .casos_Exitosos .section__CasosdeExito___Mobile .contenedor__ImagenEgresado {
+        -webkit-box-shadow: -1px -1px 30px 0px rgba(50, 50, 50, 0.28);
+        -moz-box-shadow: -1px -1px 30px 0px rgba(50, 50, 50, 0.28);
+        box-shadow: -1px -1px 30px 0px rgba(50, 50, 50, 0.28);
+        padding-bottom: 5%;
+        padding-top: 5%;
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 2em;
+    }
+    .casos_Exitosos .section__CasosdeExito___Mobile .contenedor__ImagenEgresado img {
+        width: 27%;
+        border-radius: 50%;
+        margin: auto;
+    }
+    .casos_Exitosos .section__CasosdeExito___Mobile .frase_CasosdeExito {
+        background-color: #C32032;
+        color: #FFF;
+        position: relative;
+        margin: 0 auto;
+        width: 600px;
+    }
+    .casos_Exitosos .section__CasosdeExito___Mobile .contenedor__ImagenEgresado h6 {
+        font-family: 18px;
+        font-weight: 300;
+        color: grey;
+        font-size: 12px;
+        opacity: .8;
+    }
+    .casos_Exitosos .section__CasosdeExito___Mobile .frase_CasosdeExito p {
+        font-style: italic;
+    }
+
+    .casos_Exitosos .section__CasosdeExito___Mobile .contenedor__ImagenEgresado {
+        width: 316px;
+        height: 207px;
+    }
+    .casos_Exitosos .section__CasosdeExito___Mobile .frase_CasosdeExito {
+        width: 372px;
+        min-height: 114px;
+        height: 114px;
+    }
+    .title_Sedes h2 {
+        font-size: 30px;
+    }
+    .subtitle_Sedes p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .casos_Exitosos .container .flechas {
+        display: none;
+    }
+    .col-lg-9 {
+        max-width: 100%;
+    }
+    .image-Sede .caja {
+        display: none;
+    }
+
+    .socialNetworks img {
+        height: 60px;
+        width: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .casos_Exitosos .container .flechas {
+        display: none;
+    }
+    .list_sedes_dropdown {
+        display: block;
+    }
+    .col-lg-9 {
+        max-width: 100%;
+    }
+    .image-Sede .caja {
+        display: none;
+    }
+    .container.container_sedes_dropdown {
+        padding: 0;
+        width: 100%;
+    }
+
+    .list_sedes_dropdown {
+        padding: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .casos_Exitosos .container .flechas {
+        display: none;
+    }
+    .frase_CasosdeExito {
+        bottom: 0;
+    }
+    .list_sedes_dropdown {
+        display: block;
+    }
+    .col-lg-9 {
+        max-width: 100%;
+    }
+    .image-Sede .caja {
+        display: none;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .casos_Exitosos .container .flechas {
+        display: none;
+    }
+    .col-lg-9 {
+        max-width: 100%;
+    }
+    .image-Sede .caja {
+        display: none;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .casos_Exitosos .container .flechas {
+        display: none;
+    }
+    .list_sedes_dropdown {
+        display: block;
+    }
+    .col-lg-9 {
+        max-width: 100%;
+    }
+    .image-Sede .caja {
+        display: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .casos_Exitosos .section__CasosdeExito___Mobile .frase_CasosdeExito {
+        min-height: 114px;
+        width: 272px;
+    }
+    .slick-dotted.slick-slider {
+        margin-bottom: 1em !important;
+    }
+    .casos_Exitosos {
+        padding: 4em 0 0px;
+        margin-bottom: 6em;
+    }
+    .leftArrowPrevSlick {
+        left: -10px;
+    }
+    .rightArrowNextSlick {
+        right: -10px;
+    }
+    .casos_Exitosos .section__CasosdeExito___Mobile .contenedor__ImagenEgresado {
+        padding-top: 8%;
+        width: 217px;
+        height: 177px;
+    }
+}
+
+@media screen and (max-width: 993px) {
+    .casosExitoSlick {
+        display: none;
+    }
+    .casos_Exitosos .section__CasosdeExito___Mobile {
+        width: 100%;
+        padding: 2%;
+        display: block;
+        margin-bottom: 8em;
+    }
+    .contenedor__ImagenEgresado {
+        -webkit-box-shadow: -1px -1px 30px 0px rgba(50, 50, 50, 0.28);
+        -moz-box-shadow: -1px -1px 30px 0px rgba(50, 50, 50, 0.28);
+        box-shadow: -1px -1px 30px 0px rgba(50, 50, 50, 0.28);
+        padding-bottom: 5%;
+        padding-top: 5%;
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 2em;
+    }
+    .contenedor__ImagenEgresado img {
+        width: 27%;
+        border-radius: 50%;
+        margin: auto;
+    }
+    .frase_CasosdeExito {
+        background-color: #C32032;
+        color: #FFF;
+        position: relative;
+        margin: 0 auto;
+        width: 500px;
+        min-height: 114px;
+        padding-left: 0px;
+    }
+    .contenedor__ImagenEgresado h6 {
+        font-family: 18px;
+        font-weight: 300;
+        color: grey;
+        font-size: 12px;
+        opacity: .8;
+    }
+    .frase_CasosdeExito p {
+        font-style: italic;
+    }
+    .list_sedes_dropdown {
+        display: block;
+    }
+    .flechas {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .button_Sedes {
+        display: none;
+    }
+    .image-Sede .caja {
+        display: none;
+    }
+    #responsiveSede {
+        display: flex;
+        padding: 0.8em;
+        background: #C32032;
+        color: white;
+        font-size: 1.1em;
+        text-transform: uppercase;
+        margin: auto;
+        padding-left: 2.5em;
+        border-radius: 5px;
+        width: 100%;
+    }
+    .slick-list.draggable {
+        height: auto !important;
+    }
+    .list_sedes_dropdown {
+        display: block;
+    }
+    .image-Sede .caja2 {
+        display: none;
+    }
+    .casos_Exitosos .container .flechas {
+        display: none;
+    }
+    .casos_Exitosos .container #padre {
+        display: none;
+    }
+    .casos_Exitosos .section__CasosdeExito___Mobile {
+        width: 100%;
+        padding: 2%;
+        display: block;
+    }
+    .contenedor__ImagenEgresado {
+        -webkit-box-shadow: -1px -1px 30px 0px rgba(50, 50, 50, 0.28);
+        -moz-box-shadow: -1px -1px 30px 0px rgba(50, 50, 50, 0.28);
+        box-shadow: -1px -1px 30px 0px rgba(50, 50, 50, 0.28);
+        padding-bottom: 10%;
+        padding-top: 5%;
+    }
+    .contenedor__ImagenEgresado img {
+        width: 27%;
+        border-radius: 50%;
+        margin: auto;
+    }
+    .frase_CasosdeExito {
+        background-color: #C32032;
+        color: #FFF;
+        padding: 0px 15px;
+    }
+    .contenedor__ImagenEgresado h6 {
+        font-family: 18px;
+        font-weight: 300;
+        color: grey;
+        font-size: 12px;
+        opacity: .8;
+    }
+    .frase_CasosdeExito p {
+        font-style: italic;
+    }
+
+    .flechas img {
+        display: none;
+    }
+    footer .cont-footer {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    footer .footer {
+        padding: 100px 0px;
+        justify-content: center;
+        width: 100%;
+        display: flex;
+    }
+    .logo {
+        float: none;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .rrss {
+        float: none;
+        display: flex;
+        margin-left: 2%;
+    }
+    .cont-footer .footer .logo img {
+        margin-right: 20px;
+    }
+    .cont-footer .footer img {
+        margin: auto;
+        width: 80%;
+        margin-left: 10px;
+    }
+    .cont-footer .footer .rrss .redes .behance img {
+        width: 55px;
+        margin-right: 4px;
+    }
+    .rrss p {
+        display: none;
+    }
+    .rrss .redes .behance {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width:502px) {
+    .logo {
+        width: 91.34px;
+        height: 40.44px;
+    }
+    .socialNetworks img {
+        height: 40px;
+    }
+    .polygon-right {
+        height: 128px;
+        bottom: -56px;
+    }
+    .polygon-left {
+        height: 132px;
+        bottom: -53px;
+    }
+
+}
+
+@media (max-width:320px) {}
+
+@media (max-width:299px) {
+    .footer .footer__container {
+        padding: 0 13px;
+        width: auto;
+    }
+}
+
+@media(max-width:296px) {
+    .footer .footer__container .footer__container__row .footer__container__box {
+        margin: 0 auto;
+        display: inline-block;
+        width: auto;
+    }
+}
